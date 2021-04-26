@@ -1,0 +1,19 @@
+server:
+  port: 9092
+
+spring:
+  data:
+    mongoDB:
+      host: localhost
+      port: 27017
+      database: bank-account
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bank_account
+    username: root
+    password:
