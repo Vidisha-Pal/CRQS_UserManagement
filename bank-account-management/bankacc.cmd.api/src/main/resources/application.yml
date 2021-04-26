@@ -1,0 +1,9 @@
+server:
+  port: 9091
+
+spring:
+  data:
+    mongoDB:
+      host: localhost
+      port: 27017
+      database: bank-account
